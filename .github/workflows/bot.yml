@@ -3,7 +3,6 @@ name: Posta Giorno n su X
 on:
   schedule:
     - cron: '0 9 * * *'  # Ogni giorno alle 9:00 UTC (10:00 CET)
-  workflow_dispatch:
 
 jobs:
   post:
